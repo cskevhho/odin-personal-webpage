@@ -1,3 +1,85 @@
-* {
-    border: solid 1px black;
+body {
+  margin:0;
+  padding:0;
+  background-color: paleturquoise;
+  font-family: 'Roboto', sans-serif;
+  color: #F9FAF8;
+}
+
+ul {
+  display:flex;
+  list-style: none;
+}
+
+li {margin-right: 20px;}
+li:last-child {margin-right: 0px;}
+button {background-color:#3882F6;}
+
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border: 3px solid black;
+}
+
+.body-content {display:flex;}
+
+/* START OF LANDING PAGE */
+#landing-page {
+  background-color: #1F2937;
+  flex-direction:column;
+  padding: 80px;
+  padding-top: 12px;
+
+  .header { /* YOU CAN NEST???? LOL */
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row;
+
+    .header-left {
+      font-size: 24px;
+      color: #F9FAF8;
+    }
+    .header-right {
+      font-size: 18px;
+      color: #E5E7EB;
+    }
+  }
+  
+  .landing-content{
+
+    .landing-left {
+      .heading {font-size: 48px; font-weight:800; color:#F9FAF8}
+    }
+      .subtext {font-size: 18px; color:#E5E7EB;}
+    .landing-right{}
+  }
+
+}
+/* END OF LANDING PAGE */
+
+#informa-page {
+  background-color: lightcoral;
+
+  .header{font-size: 36px; font-weight: 800; color:#1F2937;}
+}
+
+#testimo-page {
+  background-color: #E5E7EB;
+  color:#1F2937;
+}
+
+#contact-page {background-color: seagreen;
+
+  .contact-box{
+    background-color: #3882F6;
+  }
+}
+
+.footer {
+  text-align: center;
+  color: #E5E7EB;
+  background-color: #1F2937;
 }
