@@ -1,4 +1,4 @@
-# vanilla-portfolio
+# odin-personal-webpage
 
 Just a quick webpage assignment provided through The Odin Project's Foundations section.
 
@@ -8,8 +8,6 @@ NOTE: This is not designed with responsiveness in mind, not mobile-friendly or a
 
 Styling provided by The Odin Project, rights and all that cool jazz.
 
-UI MOCKUP:
+UI MOCKUP & CSS SHEET:
 ![alt text](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png)
-
-CSS STYLESHEET:
 ![alt text](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png)
